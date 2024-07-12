@@ -1,0 +1,165 @@
+
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img {
+    border-radius: 5%;
+}
+header {
+    background-color: rgb(202, 0, 0);
+    position: fixed;
+    width: 100%;
+    padding: 20px 0%;
+    z-index: 1;
+}
+
+.headFace {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 4%;
+    height: 5%;
+}
+
+nav ul {
+    list-style-type: none;
+    
+}
+
+nav ul li {
+    font-weight: 500;
+    display: inline-block;
+    padding: 0 20px; 
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+    transition: .2s;
+    display: inline-block;
+}
+
+a:hover {
+    transform: scale(1.1); 
+}
+
+/* Estilo da seção de História */
+#historia {     
+    background-color: black;
+    color: white; 
+    height: 1000px;
+    padding-top: 200px;
+    text-align: center; 
+}
+
+#historia h2 {
+    font-size: 100px; 
+    margin-bottom: 20px; 
+}
+
+#historia p {
+    text-align: center; 
+}
+#flex {
+    display: flex;
+    margin: 0px 190px;
+}
+
+#historia h2 span {
+    color: rgb(255, 0, 0);
+}
+
+.texto {
+    color: rgb(255, 255, 255);
+    margin:50px 100px 0px 100px;
+    font-size: 20px;
+    font-weight: 600px;
+}
+
+
+/* Estilo da seção de geografia */
+#Geografia {     
+    background-color: rgb(255, 255, 255);
+    color: white; 
+    height: 910px;
+    padding-top: 150px; 
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+}
+
+#Geografia h2 {
+    font-size: 50px;
+    color: rgb(255, 0, 0);
+}
+
+.fundo {
+    background-color: black;
+    border-radius: 50px ;
+    margin: 20px;
+    transition: .2s;
+}
+
+.fundo:hover{
+    transform: scale(1.05);
+}
+
+.texto1 {
+    color: rgb(255, 255, 255);
+    margin:50px 100px 0px 100px;
+}
+
+/* Estilo da seção de cultura */
+#Cultura {     
+    background-color: rgb(0, 0, 0);
+    color: white; 
+    height: 1500px;
+    padding-top: 130px;
+}
+.meio {
+    align-items: center;
+    text-align: center;
+}
+
+#Cultura h2 span {
+    color: rgb(255, 0, 0);
+}
+
+.texto2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+/* Estilo da seção de sociedade */
+#sociedade {    
+    padding-top: 200px; 
+    background-color: rgb(0, 0, 0);
+    color: white; 
+    height: 1100px;
+    text-align: center;
+}
+
+.textoso {
+    font-size: 50px;
+    color: red;
+}
+
+.lado {
+    padding: 0px 500px 0px 500px;
+    align-items: center;
+}
+
+/* Estilo da seção sotaque */
+#Sotaque {    
+    padding-top: 200px; 
+    background-color: rgb(0, 38, 255);
+    color: white; 
+    height: 810px;
+    text-align: center;
+}
